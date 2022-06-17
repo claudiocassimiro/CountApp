@@ -38,7 +38,7 @@
   flex-direction: column;
   justify-content: space-around;
   border: 3px solid #c411df;
-  margin-top: 30px;
+  margin: 5px 10px;
   width: 100%;
   max-width: 1140px;
   height: 100%;
@@ -69,13 +69,18 @@
 }
 
 .button {
-  width: 30%;
-  height: 50px;
-  border-radius: 10px;
+  width: 200px;
+  height: 60px;
+  border-radius: 15px;
+  background-color: rgb(197, 42, 197);
   outline: none;
-  border: 0;
   font-size: 30px;
   transition: 0.2s;
+}
+
+button:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
 }
 
 .button:active {
