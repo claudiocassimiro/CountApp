@@ -29,7 +29,7 @@ const decrementNumber = () => {
 const decrementNumberPlus = () => {
   const newNumber = Number(number.innerText) - 2;
 
-  if (newNumber <= 1) {
+  if (newNumber < 0) {
     return (number.innerText = 0);
   }
 
